@@ -61,7 +61,24 @@ h1 {
     padding: 100% 0 0 0;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 400px) {
+
+  .page-about .bric-sm .bric-row {
+    width: 400px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media only screen and (min-width: 760px) {
+  .page-about .bric-sm .bric-row {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
 
   .page-about .bric-sm .bric-row {
       position: absolute;
@@ -70,23 +87,16 @@ h1 {
       top: 50%;
       transform: translateY(-50%);
       margin: 0 auto;
-      width: 600px;
+      width: 730px;
       max-width: 100%;
       height: auto;
   }
   
   .page-about .bric-sm .bric-col:first-child .bric-col-inner {
     width: 100%;
-    padding: 76% 0 0;
+    padding: 119% 0 0;
   }
 
-
-}
-
-@media only screen and (min-width: 1000px) {
-
-  .page-about .bric-sm .bric-row {width: 730px;}
-  .page-about .bric-sm .bric-col:first-child .bric-col-inner {padding: 119% 0 0;}
   .page-about .hdg-sm {margin-top: 31px;}
 
 }

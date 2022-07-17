@@ -13,9 +13,9 @@
         </Column>
         <Column class="bric-col-4">
           <h2>Credits</h2>
-          <p>This project is made in partnership with game developer <g-link to="/#">Bernie Hou</g-link>. We are <g-link to="/#">What's a Mook?</g-link> games! I designed the UI and game assets, and made the promo graphics and illustrations.</p>
+          <p>This project is made in partnership with game developer <g-link to="https://twitter.com/bernieh">Bernie Hou</g-link>. We are <g-link to="https://whatsamook.games">What's a Mook?</g-link> games! I designed the UI and game assets, and made the promo graphics and illustrations.</p>
           <p>
-            <g-link class="link-arrow" to="/#">
+            <g-link class="link-arrow" to="https://whatsamook.games">
               Play Crashword
             </g-link>
           </p>
@@ -25,15 +25,15 @@
     <Section class="bric-tiles">
       <Row>
         <Column>
-            <g-image alt="Desktop still of Crashword UI during gameplay" src="~/assets/images/proj-cra-01-a-x2.png" />
+            <g-image alt="Desktop still of Crashword UI during gameplay" quality="100" src="~/assets/images/proj-cra-01-a-x2.png" />
         </Column>
       </Row>
       <Row>
         <Column class="bric-col-6">
-            <g-image alt="Mobile still of login page for Crashword UI" src="~/assets/images/proj-cra-02-a-x2.png" />
+            <g-image alt="Mobile still of login page for Crashword UI" quality="100" src="~/assets/images/proj-cra-02-a-x2.png" />
         </Column>
         <Column class="bric-col-6">
-            <g-image alt="Mobile still of Crashword UI during gameplay" src="~/assets/images/proj-cra-03-a-x2.png" />
+            <g-image alt="Mobile still of Crashword UI during gameplay" quality="100" src="~/assets/images/proj-cra-03-a-x2.png" />
         </Column>
       </Row>
     </Section>
@@ -93,8 +93,6 @@ export default {
 .page-crashword .bric-tiles img {
   filter: none;
   box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.04), 3px 6px 70px rgba(223, 196, 134, 0.5);
-  /* display: block;
-  margin: 0 auto; */
   background: #fff;
   border: solid #fff;
 }

@@ -94,14 +94,8 @@ export default {
     background-color: blue;
   }
 
-
-
-
-
-
   h1 {display: block;}
 
-/*todo fix active*/
   .page-home.hdr-shift-after .header a[href="/#work"] {
       background: #D7DEDC;
   }
@@ -177,9 +171,7 @@ export default {
     text-align: right;
   }
 
-
   @media only screen and (min-width: 1500px) {
-
 
     .page-home .bric-tiles {
       height: 100vh;
@@ -194,9 +186,6 @@ export default {
       transform: translateY(-50%);
     }    
 
-
   }
-
-
 
 </style>

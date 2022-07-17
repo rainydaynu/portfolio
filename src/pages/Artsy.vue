@@ -11,9 +11,9 @@
         </Column>
         <Column class="bric-col-4">
           <h2>Credits</h2>
-          <p>This project was managed by art director <g-link to="/#">Jon Laser</g-link>, who also designed the main website. I built the site out as well as designed and developed the Stores Near Me UI/subpage, integrating the Mapbox API.</p>
+          <p>This project was managed by creative director <g-link to="https://www.jonnylaser.com">Jon Laser</g-link>, who also designed the main website. I built the site out as well as designed the Stores Near Me UI/subpage per brand guidelines set by Jon, integrating the Mapbox API upon development.</p>
           <p>
-            <g-link class="link-arrow" to="/#">
+            <g-link class="link-arrow" to="https://www.artsycannabis.com">
               View Website
             </g-link>
           </p>
@@ -23,15 +23,15 @@
     <Section class="bric-tiles">
       <Row>
         <Column>
-            <g-image alt="Desktop still of store map" src="~/assets/images/proj-art-dsk-01.png" />
+            <g-image alt="Desktop still of store map" quality="100" src="~/assets/images/proj-art-dsk-01.png" />
         </Column>
       </Row>
       <Row>
         <Column class="bric-col-6">
-            <g-image alt="Mobile still of store map" src="~/assets/images/proj-art-mob-01.png" />
+            <g-image alt="Mobile still of store map" quality="100" src="~/assets/images/proj-art-mob-01.png" />
         </Column>
         <Column class="bric-col-6">
-            <g-image alt="Mobile still of store map with store list sidebar open" src="~/assets/images/proj-art-mob-02.png" />
+            <g-image alt="Mobile still of store map with store list sidebar open" quality="100" src="~/assets/images/proj-art-mob-02.png" />
         </Column>
       </Row>
     </Section>

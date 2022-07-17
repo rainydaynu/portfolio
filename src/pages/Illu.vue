@@ -7,12 +7,12 @@
       <Row>
         <Column class="bric-col-8">
           <h2>Description</h2>
-          <p>I love drawing cartoons! Below are a selection of commissioned and personal works.</p>
+          <p>I love drawing cartoons! Below are a selection of commissioned and personal pieces.</p>
         </Column>
 
         <Column class="bric-col-4">
           <h2>See More</h2>
-          <p>Lorem Ipsum.</p>
+          <p>Peep my <g-link to="https://twitter.com/4RV1L">Twitter</g-link> for WIP's and doodles!</p>
         </Column>
 
       </Row>
@@ -56,7 +56,7 @@
             <g-image alt="Illustration of an alien cowgirl" src="~/assets/images/illu-09.png" />
         </Column>
         <Column class="bric-col-6">
-            <g-image alt="Illustration of an anthropomorphic ant" src="~/assets/images/illu-10.png" />
+            <g-image alt="Illustration of an anthropomorphic ant" quality="100" src="~/assets/images/illu-10.png" />
         </Column>
       </Row>
 
@@ -114,12 +114,6 @@ export default {
 .page-illu .bric-tiles .bric-col-inner {
   padding: 0;
 }
-
-/*
-.page-illu footer .ftr-logo {
-  padding: 26px 6px 26px 0;
-}
-*/
 
 .page-illu footer .ftr-logo {
     padding: 22px 0;
