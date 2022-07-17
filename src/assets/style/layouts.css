@@ -1,0 +1,380 @@
+body {
+    background: #161616;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.link-arrow {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: solid 2px;
+    position: relative;
+}
+
+.link-arrow::after {
+    display: inline-block;
+    content: '';
+    background: url('../../assets/icons/east_black_24dp.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2em;
+    height: 1.6em;
+    position: absolute;
+    background-position: 0.22em 0.03em;
+}
+
+.bric {
+    display: block;
+    clear: both;
+    overflow: auto;
+    padding: 20px 20px 50px 20px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 1640px;
+}
+
+.bric-row {
+    overflow: auto;
+    max-width: none;
+    padding: 0;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.bric-row-inner {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bric-col {
+    padding: 0 20px 20px 20px;
+}
+
+/* bric types */
+
+.bric-text {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.bric-bg-img {
+    display: block;
+}
+
+.bric-boxed {
+    background: #161616;
+    padding: 30px;
+}
+
+.bric-boxed .bric-row {
+    background: #fff;
+    padding: 30px 30px 0 30px;
+}
+
+.bric-boxed .bric-col {
+    padding: 0 0 9px 0;
+}
+
+.bric-solid {
+    background: #888;
+}
+
+.bric-hdr-shift {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #161616;
+    color: #fff;
+    padding: 61.59% 0 0 0;
+}
+
+.bric-tiles {
+    overflow: auto;
+    padding: 0 20px 50px 20px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 1640px;
+}
+
+.bric-tiles .bric-col {
+    padding: 0 10px 20px 10px;
+}
+
+.bric-tiles .bric-col-inner {
+    overflow: hidden;
+    padding: 30px;
+}
+
+.bric-tiles img {
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.03)) drop-shadow(3px 6px 55px rgba(0, 0, 0, 0.15));
+}
+
+.bric-hdr-shift img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+}
+
+#app {
+    background-color: #fff;
+}
+
+.layout {
+    margin: 0 auto;
+    padding: 0;
+    color: #161616;
+}
+
+.header,
+.bric-hdr-shift,
+.footer {
+    max-width: none;
+}
+
+.header,
+.footer {
+    padding: 0 20px;
+}
+
+.header .bric-row,
+.footer .bric-row {
+    margin: 0 auto;
+}
+
+a:hover {
+    color: #0AFF7E !important;
+}
+
+.header {
+    background-color: #fff;
+    transition: background-color .5s ease;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.header .bric-row {
+    border-bottom: solid 2px #161616;
+    transition: border-color .5s ease;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.header a {
+    color: #161616;
+}
+
+nav {
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.header nav a:first-child {
+    float: left;
+}
+
+nav a {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav__link {
+    margin-left: 20px;
+}
+
+.hdr-shift .header {
+    background-color: transparent !important;
+}
+
+.hdr-shift .bric-row {
+    border: none !important;
+}
+
+.hdr-shift .header a {
+    color: #fff;
+}
+
+footer.bric {
+    background: #161616;
+    color: #fff;
+}
+
+footer .bric-row,
+footer .bric-row-inner {
+    margin: 0;
+    padding: 0;
+}
+
+footer a {
+    display: block;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+footer span {
+    display: block;
+    float: left;
+    padding: 23px 0 21px 0;
+}
+
+footer .ftr-logo {
+    height: 100%;
+    overflow: auto;
+    width: 216px;
+    float: right;
+    overflow: hidden;
+}
+
+footer .ftr-logo .icon-log {
+    width: auto;
+    max-height: 100%;
+}
+
+footer .ftr-logo .icon-arr {
+    height: 1.6em;
+    width: 1.6em;
+    vertical-align: middle;
+}
+
+footer a:hover {
+    color: inherit !important;
+}
+
+footer a:hover .icon-log path {
+    fill: #0aff7e;
+}
+
+/* project pages */
+
+.page-project h2,
+.hdg-sm {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #858585;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+@media only screen and (min-width: 600px) {
+    .bric-tiles .bric-col-inner {
+        padding: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .bric-text {
+        padding: 70px 50px 40px 50px;
+    }
+
+    .bric-text .bric-col {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .bric-col-8,
+    .bric-col-6,
+    .bric-col-4,
+    .bric-col-3 {
+        float: left;
+    }
+
+    .bric-col-8 {
+        width: 66.666%;
+    }
+
+    .bric-col-6 {
+        width: 50%;
+    }
+
+    .bric-col-4 {
+        width: 33.333%;
+    }
+
+    .bric-col-3 {
+        width: 25%;
+    }
+
+    .header,
+    .footer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 1240px) {
+    footer a {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .bric-text {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .bric-text .bric-col {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .bric-tiles .bric-row-inner {
+        padding: 0 5px;
+    }
+
+    .bric-tiles .bric-col {
+        padding: 0 15px 30px 15px;
+    }
+
+    .bric-tiles .bric-col-inner {
+        padding-top: 170px;
+        padding-bottom: 170px;
+    }
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .bric {
+        font-size: 18px;
+    }
+
+    .page-project h2 {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+    .page-home .back-to-top {
+        right: 56px;
+    }
+
+    .header,
+    .footer {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+}

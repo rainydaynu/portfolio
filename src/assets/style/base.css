@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@600&display=swap');
+
+html,
+body {
+  touch-action: manipulation;
+  width: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;  
+  font-size: 16px;
+  line-height: 1.5;  
+  margin:0;
+  padding:0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;  
+  overflow: auto;
+}
+
+p,
+li,
+blockquote {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+img,
+svg {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+h1 {
+  margin-top: 0;
+}

@@ -1,0 +1,93 @@
+/* anim fade */
+
+@keyframes anim-fade {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+
+.anim-fade {
+  animation: anim-fade .25s ease;
+}
+
+/* anim bg */
+
+.page-home #bricHdrShift {
+    background: -webkit-linear-gradient(-180deg, #161616 0%, #060606 100%);
+    background: linear-gradient(-180deg, #161616 0%, #060606 100%);
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+}
+
+.page-home #bricHdrShift ul {
+    width: 100%;
+    height: inherit;
+    list-style-type: none;
+}
+
+.page-home #bricHdrShift li {
+    position: absolute;
+    opacity: 0;
+    background: #fff;
+}
+
+.page-home #bricHdrShift li:nth-child(1) {
+    left: 10%;
+    height: 30px;
+    width: 30px;
+}
+
+.page-home #bricHdrShift li:nth-child(2) {
+    left: 35%;
+    height: 45px;
+    width: 45px;
+}
+
+.page-home #bricHdrShift li:nth-child(3) {
+    left: 61%;
+    height: 70px;
+    width: 70px;
+}
+
+.page-home #bricHdrShift li:nth-child(4) {
+    left: 88%;
+    height: 20px;
+    width: 20px;
+}
+
+.page-home #bricHdrShift li:nth-child(1) {
+    animation: anim-bg 16s linear 1s infinite;
+}
+
+.page-home #bricHdrShift li:nth-child(2) {
+    animation: anim-bg 10s linear 1s infinite;
+}
+
+.page-home #bricHdrShift li:nth-child(3) {
+    animation: anim-bg 14s linear 1s infinite;
+}
+
+.page-home #bricHdrShift li:nth-child(4) {
+    animation: anim-bg 11s linear 1s infinite;
+}
+
+@keyframes anim-bg {
+    0% {
+        transform: translateY(100vh) rotate(180deg);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .08;
+    }
+
+    100% {
+        transform: translateY(-150%) rotate(360deg);
+        opacity: .6;
+    }
+}
