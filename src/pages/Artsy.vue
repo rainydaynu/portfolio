@@ -7,7 +7,7 @@
       <Row>
         <Column class="bric-col-8">
           <h2>Description</h2>
-          <p><strong>ARTSY</strong> is cannabis company that produces an assortment of high quality products as well as clothing and merchandise.</p>
+          <p><strong>ARTSY</strong> is a cannabis company that produces an assortment of high quality products as well as clothing and merchandise.</p>
         </Column>
         <Column class="bric-col-4">
           <h2>Credits</h2>
